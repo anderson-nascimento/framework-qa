@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: qa.automation.tests.ContaTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.562 s - in qa.automation.tests.ContaTest

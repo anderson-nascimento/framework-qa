@@ -1,0 +1,7 @@
+qa\automation\pages\ContasPage.class
+qa\automation\pages\MenuPage.class
+qa\automation\core\BasePage.class
+qa\automation\pages\LoginPage.class
+qa\automation\utils\DataUtils.class
+qa\automation\core\BaseTest.class
+qa\automation\utils\ReadConfigProperties.class

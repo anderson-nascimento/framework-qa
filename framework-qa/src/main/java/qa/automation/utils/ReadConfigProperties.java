@@ -7,9 +7,8 @@ import java.util.Properties;
 
 public class ReadConfigProperties {
 
-	static String result;
-
 	public static String getProperties(String properties) {
+		String result = "";
 		try (InputStream input = new FileInputStream("src/main/resources/config.properties")) {
 
 			Properties prop = new Properties();
@@ -23,4 +22,5 @@ public class ReadConfigProperties {
 		}
 		return result;
 	}
+	
 }

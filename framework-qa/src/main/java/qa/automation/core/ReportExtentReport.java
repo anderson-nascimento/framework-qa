@@ -27,8 +27,8 @@ public class ReportExtentReport {
 			
 			htmlReporter = new ExtentSparkReporter(diretorioReport + nomeReport + ".html");
 			htmlReporter.config().setEncoding("ISO-8859-1");
-			htmlReporter.config().setDocumentTitle("Report de execução");
-			htmlReporter.config().setReportName("Report de execução");
+			htmlReporter.config().setDocumentTitle("Report de execucao");
+			htmlReporter.config().setReportName("Report de execucao");
 			extent.attachReporter(htmlReporter);
 			reportInicializado = true;
 		}		
